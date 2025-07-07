@@ -37,6 +37,9 @@ h1{
 p{
     color: white;
     flex-wrap: wrap;
+    font-size: 18px;
+    font-family: Comic Sans ms;
+    line-height: 2em;
 }
 
 main{
