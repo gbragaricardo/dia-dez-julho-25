@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -20,6 +24,8 @@
   }
 }
 
+
+
 #cintilar{
     animation: cintilar 1.5s ease-in-out infinite alternate;
     color: white;
@@ -29,17 +35,23 @@ body{
     background-color: #121212;
 }
 h1{
-    font-family: Comic Sans ms;
+    font-family: "Sour Gummy";
     align-self: center;
     justify-self: center;
     color: white;
 }
+
+#declaracao{
+  align-self: center;
+  margin: auto;
+}
+
 p{
     color: white;
     flex-wrap: wrap;
-    font-size: 16px;
-    font-family: Comic Sans ms;
-    line-height: 1.5em;
+    font-size: 18px;
+    font-family: "Sour Gummy";
+    text-align: justify;
 }
 
 main{
